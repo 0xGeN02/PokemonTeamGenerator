@@ -1,0 +1,1684 @@
+[
+    "pokemon", {
+        "Venasaur":{
+            "stats": {
+                "hp": 80,
+                "attack": 82,
+                "defense": 83,
+                "spAttack": 100,
+                "spDefense": 100,
+                "speed": 80
+            },
+            "moves":{
+                "solar beam": 120,
+                "sludge bomb": 90,
+                "earth power": 90,
+                "giga drain": 75
+            },
+            "type": ["Grass", "Poison"],
+            "weaknesses": ["Fire", "Flying", "Psychic", "Ice"],
+            "strengths": ["Water", "Rock", "Gorund", "Grass" ],
+            "ability": "Overgrow",
+            "evs": "252 HP / 252 SpA / 4 SpD"
+        },
+        "Charizard":{
+            "stats": {
+                "hp": 78,
+                "attack": 84,
+                "defense": 78,
+                "spAttack": 109,
+                "spDefense": 85,
+                "speed": 100
+            },
+            "moves":{
+                "flamethrower": 90,
+                "fire blast": 110,
+                "air slash": 75,
+                "dragon pulse": 85
+            },
+            "type": ["Fire", "Flying"],
+            "weaknesses": ["Water", "Electric", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug", "Steel", "Ice"],
+            "ability": "Blaze",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Bastoise":{
+            "stats": {
+                "hp": 79,
+                "attack": 83,
+                "defense": 100,
+                "spAttack": 85,
+                "spDefense": 105,
+                "speed": 78
+            },
+            "moves":{
+                "surf": 90,
+                "ice beam": 90,
+                "dark pulse": 80,
+                "scald": 80
+            },
+            "type": ["Water"],
+            "weaknesses": ["Grass", "Electric"],
+            "strengths": ["Fire", "Rock", "Ground"],
+            "ability": "Torrent",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Butterfree":{
+            "stats": {
+                "hp": 60,
+                "attack": 45,
+                "defense": 50,
+                "spAttack": 90,
+                "spDefense": 80,
+                "speed": 70
+            },
+            "moves":{
+                "bug buzz": 90,
+                "air slash": 75,
+                "energy ball": 90,
+                "psychic": 90
+            },
+            "type": ["Bug", "Flying"],
+            "weaknesses": ["Fire", "Electric", "Flying", "Ice", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug"],
+            "ability": "Compound Eyes",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Beedrill": {
+            "stats": {
+                "hp": 65,
+                "attack": 90,
+                "defense": 40,
+                "spAttack": 45,
+                "spDefense": 80,
+                "speed": 75
+            },
+            "moves":{
+                "poison jab": 80,
+                "x-scissor": 80,
+                "drill run": 80,
+                "uturn": 70
+            },
+            "type": ["Bug", "Poison"],
+            "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug"],
+            "ability": "Swarm",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Pidgeot": {
+            "stats": {
+                "hp": 83,
+                "attack": 80,
+                "defense": 75,
+                "spAttack": 70,
+                "spDefense": 70,
+                "speed": 101
+            },
+            "moves":{
+                "brave bird": 120,
+                "return": 102,
+                "uturn": 70,
+                "roost": "status"
+            },
+            "type": ["Normal", "Flying"],
+            "weaknesses": ["Electric", "Ice", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug"],
+            "ability": "Tangled Feet",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Raticate": {
+            "stats": {
+                "hp": 55,
+                "attack": 81,
+                "defense": 60,
+                "spAttack": 50,
+                "spDefense": 70,
+                "speed": 97
+            },
+            "moves":{
+                "sucker punch": 80,
+                "double edge": 90,
+                "uturn": 60,
+                "crunch": 80
+            },
+            "type": ["Normal"],
+            "weaknesses": ["Fighting"],
+            "strengths": [""],
+            "ability": "Guts",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Fearow": {
+            "stats": {
+                "hp": 65,
+                "attack": 90,
+                "defense": 65,
+                "spAttack": 61,
+                "spDefense": 61,
+                "speed": 100
+            },
+            "moves":{
+                "drill peck": 80,
+                "return": 102,
+                "uturn": 70,
+                "roost": "status"
+            },
+            "type": ["Normal", "Flying"],
+            "weaknesses": ["Electric", "Ice", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug"],
+            "ability": "Keen Eye",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Arbok": {
+            "stats": {
+                "hp": 60,
+                "attack": 85,
+                "defense": 69,
+                "spAttack": 65,
+                "spDefense": 79,
+                "speed": 80
+            },
+            "moves":{
+                "toxic": "status",
+                "earthquake": 100,
+                "crunch": 80,
+                "coil": "status"
+            },
+            "type": ["Poison"],
+            "weaknesses": ["Ground", "Psychic"],
+            "strengths": ["Grass"],
+            "ability": "Intimidate",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Raichu": {
+            "stats": {
+                "hp": 60,
+                "attack": 90,
+                "defense": 55,
+                "spAttack": 90,
+                "spDefense": 80,
+                "speed": 105
+            },
+            "moves":{
+                "thunderbolt": 90,
+                "volt switch": 70,
+                "thunder shok": 40,
+                "grass knot": 80
+            },
+            "type": ["Electric"],
+            "weaknesses": ["Ground"],
+            "strengths": ["Water", "Flying"],
+            "ability": "Static",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Sandslash": {
+            "stats": {
+                "hp": 75,
+                "attack": 100,
+                "defense": 110,
+                "spAttack": 45,
+                "spDefense": 55,
+                "speed": 65
+            },
+            "moves":{
+                "earthquake": 100,
+                "stone edge": 100,
+                "stealth rock": "status",
+                "rapid spin": "status"
+            },
+            "type": ["Ground"],
+            "weaknesses": ["Water", "Grass", "Ice"],
+            "strengths": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+            "ability": "Sand Veil",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Nidoqueen": {
+            "stats": {
+                "hp": 90,
+                "attack": 82,
+                "defense": 87,
+                "spAttack": 75,
+                "spDefense": 85,
+                "speed": 76
+            },
+            "moves":{
+                "earthquake": 100,
+                "ice beam": 90,
+                "toxic spikes": "status",
+                "stealth rock": "status"
+            },
+            "type": ["Poison", "Ground"],
+            "weaknesses": ["Water", "Ice", "Ground", "Psychic"],
+            "strengths": ["Poison", "Rock", "Bug", "Steel"],
+            "ability": "Sheer Force",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Nidoking": {
+            "stats": {
+                "hp": 81,
+                "attack": 102,
+                "defense": 77,
+                "spAttack": 85,
+                "spDefense": 75,
+                "speed": 85
+            },
+            "moves":{
+                "earthquake": 100,
+                "ice beam": 90,
+                "thunderbolt": 90,
+                "fire blast": 110
+            },
+            "type": ["Poison", "Ground"],
+            "weaknesses": ["Water", "Ice", "Ground", "Psychic"],
+            "strengths": ["Poison", "Rock", "Bug", "Steel"],
+            "ability": "Sheer Force",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Clefable": {
+            "stats": {
+                "hp": 95,
+                "attack": 70,
+                "defense": 73,
+                "spAttack": 95,
+                "spDefense": 90,
+                "speed": 60
+            },
+            "moves":{
+                "helping hand": "status",
+                "thunderbolt": 90,
+                "flamethrower": 90,
+                "ice beam": 90
+            },
+            "type": ["Normal"],
+            "weaknesses": ["Fighting"],
+            "strengths": [],
+            "ability": "Magic Guard",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Ninetales": {
+            "stats": {
+                "hp": 73,
+                "attack": 76,
+                "defense": 75,
+                "spAttack": 81,
+                "spDefense": 100,
+                "speed": 100
+            },
+            "moves":{
+                "flamethrower": 90,
+                "fire blast": 110,
+                "dark pulse": 80,
+                "energy ball": 90
+            },
+            "type": ["Fire"],
+            "weaknesses": ["Water", "Rock", "Ground"],
+            "strengths": ["Grass", "Bug", "Steel", "Ice"],
+            "ability": "Drought",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Wigglytuff": {
+            "stats": {
+                "hp": 140,
+                "attack": 70,
+                "defense": 45,
+                "spAttack": 85,
+                "spDefense": 50,
+                "speed": 45
+            },
+            "moves":{
+                "dazzling gleam": 80,
+                "fire blast": 110,
+                "ice beam": 90,
+                "thunderbolt": 90
+            },
+            "type": ["Normal"],
+            "weaknesses": ["Fighting"],
+            "strengths": [],
+            "ability": "Competitive",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Vileplume": {
+            "stats": {
+                "hp": 75,
+                "attack": 80,
+                "defense": 85,
+                "spAttack": 110,
+                "spDefense": 90,
+                "speed": 50
+            },
+            "moves":{
+                "solar beam": 120,
+                "sludge bomb": 90,
+                "giga drain": 75,
+                "moonblast": 95
+            },
+            "type": ["Grass", "Poison"],
+            "weaknesses": ["Fire", "Flying", "Psychic", "Ice"],
+            "strengths": ["Water", "Rock", "Gorund", "Grass" ],
+            "ability": "Chlorophyll",
+            "evs": "252 HP / 252 SpA / 4 SpD"
+        },
+        "Parasect": {
+            "stats": {
+                "hp": 60,
+                "attack": 95,
+                "defense": 80,
+                "spAttack": 60,
+                "spDefense": 80,
+                "speed": 30
+            },
+            "moves":{
+                "spore": "status",
+                "x-scissor": 80,
+                "seed bomb": 80,
+                "leech life": 80
+            },
+            "type": ["Bug", "Grass"],
+            "weaknesses": ["Fire", "Flying", "Poison", "Bug", "Ice"],
+            "strengths": ["Water", "Ground", "Rock", "Electric"],
+            "ability": "Dry Skin",
+            "evs": "252 HP / 252 Atk / 4 SpD"
+        },
+        "Venomoth": {
+            "stats": {
+                "hp": 70,
+                "attack": 65,
+                "defense": 60,
+                "spAttack": 90,
+                "spDefense": 75,
+                "speed": 90
+            },
+            "moves":{
+                "bug buzz": 90,
+                "psychic": 90,
+                "quiver dance": "status",
+                "roost": "status"
+            },
+            "type": ["Bug", "Poison"],
+            "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug"],
+            "ability": "Tinted Lens",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Dugtrio": {
+            "stats": {
+                "hp": 35,
+                "attack": 80,
+                "defense": 50,
+                "spAttack": 50,
+                "spDefense": 70,
+                "speed": 120
+            },
+            "moves":{
+                "earthquake": 100,
+                "stone edge": 100,
+                "sucker punch": 80,
+                "reversal": 80
+            },
+            "type": ["Ground"],
+            "weaknesses": ["Water", "Grass", "Ice"],
+            "strengths": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+            "ability": "Arena Trap",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Persian": {
+            "stats": {
+                "hp": 65,
+                "attack": 70,
+                "defense": 60,
+                "spAttack": 65,
+                "spDefense": 65,
+                "speed": 115
+            },
+            "moves":{
+                "return": 102,
+                "play rough": 90,
+                "uturn": 70,
+                "hypnosis": "status"
+            },
+            "type": ["Normal"],
+            "weaknesses": ["Fighting"],
+            "strengths": [],
+            "ability": "Technician",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Golduck": {
+            "stats": {
+                "hp": 80,
+                "attack": 82,
+                "defense": 78,
+                "spAttack": 95,
+                "spDefense": 80,
+                "speed": 85
+            },
+            "moves":{
+                "surf": 90,
+                "ice beam": 90,
+                "psychic": 90,
+                "focus blast": 120
+            },
+            "type": ["Water"],
+            "weaknesses": ["Grass", "Electric"],
+            "strengths": ["Fire", "Rock", "Ground"],
+            "ability": "Cloud Nine",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Primeape": {
+            "stats": {
+                "hp": 65,
+                "attack": 105,
+                "defense": 60,
+                "spAttack": 60,
+                "spDefense": 70,
+                "speed": 95
+            },
+            "moves":{
+                "close combat": 120,
+                "uturn": 70,
+                "stone edge": 100,
+                "ice punch": 75
+            },
+            "type": ["Fighting"],
+            "weaknesses": ["Flying", "Psychic"],
+            "strengths": ["Normal", "Rock", "Steel", "Ice"],
+            "ability": "Vital Spirit",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Arcanine": {
+            "stats": {
+                "hp": 90,
+                "attack": 110,
+                "defense": 80,
+                "spAttack": 100,
+                "spDefense": 80,
+                "speed": 95
+            },
+            "moves":{
+                "flare blitz": 120,
+                "extreme speed": 80,
+                "close combat": 110,
+                "wild charge": 80
+            },
+            "type": ["Fire"],
+            "weaknesses": ["Water", "Rock", "Ground"],
+            "strengths": ["Grass", "Bug", "Steel", "Ice"],
+            "ability": "Intimidate",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Poliwrath": {
+            "stats": {
+                "hp": 90,
+                "attack": 95,
+                "defense": 95,
+                "spAttack": 70,
+                "spDefense": 90,
+                "speed": 70
+            },
+            "moves":{
+                "waterfall": 80,
+                "ice punch": 75,
+                "circle throw": 60,
+                "bulk up": "status"
+            },
+            "type": ["Water", "Fighting"],
+            "weaknesses": ["Grass", "Electric", "Flying", "Psychic" ],
+            "strengths": ["Fire", "Rock", "Steel", "Ice"],
+            "ability": "Water Absorb",
+            "evs": "252 HP / 252 Atk / 4 SpD"
+        },
+        "Alakazam": {
+            "stats": {
+                "hp": 55,
+                "attack": 50,
+                "defense": 45,
+                "spAttack": 135,
+                "spDefense": 85,
+                "speed": 120
+            },
+            "moves":{
+                "psychic": 110,
+                "shadow ball": 100,
+                "focus blast": 120,
+                "dazzling gleam": 80
+            },
+            "type": ["Psychic"],
+            "weaknesses": ["Bug", "Ghost" ],
+            "strengths": ["Fighting", "Poison"],
+            "ability": "Magic Guard",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Machamp": {
+            "stats": {
+                "hp": 90,
+                "attack": 130,
+                "defense": 80,
+                "spAttack": 65,
+                "spDefense": 85,
+                "speed": 55
+            },
+            "moves":{
+                "dynamic punch": 100,
+                "stone edge": 100,
+                "ice punch": 75,
+                "bulk up": "status"
+            },
+            "type": ["Fighting"],
+            "weaknesses": ["Flying", "Psychic"],
+            "strengths": ["Normal", "Rock", "Steel", "Ice" ],
+            "ability": "No Guard",
+            "evs": "252 HP / 252 Atk / 4 SpD"
+        },
+        "Victreebel": {
+            "stats": {
+                "hp": 80,
+                "attack": 105,
+                "defense": 65,
+                "spAttack": 100,
+                "spDefense": 60,
+                "speed": 70
+            },
+            "moves":{
+                "leaf blade": 90,
+                "sludge bomb": 90,
+                "sucker punch": 80,
+                "swords dance": "status"
+            },
+            "type": ["Grass", "Poison"],
+            "weaknesses": ["Fire", "Flying", "Psychic", "Ice"],
+            "strengths": ["Water", "Rock", "Gorund", "Grass" ],
+            "ability": "Chlorophyll",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Tentacruel": {
+            "stats": {
+                "hp": 80,
+                "attack": 70,
+                "defense": 65,
+                "spAttack": 80,
+                "spDefense": 120,
+                "speed": 100
+            },
+            "moves":{
+                "scald": 80,
+                "sludge bomb": 90,
+                "rapid spin": "status",
+                "toxic spikes": "status"
+            },
+            "type": ["Water", "Poison"],
+            "weaknesses": ["Ground", "Psychic", "Electric"],
+            "strengths": ["Fire", "Fighting", "Poison", "Bug"],
+            "ability": "Liquid Ooze",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Golem": {
+            "stats": {
+                "hp": 80,
+                "attack": 120,
+                "defense": 130,
+                "spAttack": 55,
+                "spDefense": 65,
+                "speed": 45
+            },
+            "moves":{
+                "earthquake": 100,
+                "stone edge": 100,
+                "stealth rock": "status",
+                "coil": "status"
+            },
+            "type": ["Rock", "Ground"],
+            "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground"],
+            "strengths": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+            "ability": "Sturdy",
+            "evs": "252 HP / 252 Atk / 4 SpD"
+        },
+        "Rapidash": {
+            "stats": {
+                "hp": 65,
+                "attack": 100,
+                "defense": 70,
+                "spAttack": 80,
+                "spDefense": 80,
+                "speed": 105
+            },
+            "moves":{
+                "flare blitz": 120,
+                "megahorn": 120,
+                "wild charge": 90,
+                "drill run": 80
+            },
+            "type": ["Fire"],
+            "weaknesses": ["Water", "Rock", "Ground"],
+            "strengths": ["Grass", "Bug", "Steel", "Ice"],
+            "ability": "Flash Fire",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Slowbro": {
+            "stats": {
+                "hp": 95,
+                "attack": 75,
+                "defense": 110,
+                "spAttack": 100,
+                "spDefense": 80,
+                "speed": 30
+            },
+            "moves":{
+                "scald": 90,
+                "psychic": 110,
+                "slack off": "status",
+                "hydro pump": 110
+            },
+            "type": ["Water", "Psychic"],
+            "weaknesses": ["Grass", "Electric", "Bug" ],
+            "strengths": ["Fire", "Fighting", "Poison", "Psychic"],
+            "ability": "Regenerator",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Magneton": {
+            "stats": {
+                "hp": 50,
+                "attack": 60,
+                "defense": 95,
+                "spAttack": 120,
+                "spDefense": 70,
+                "speed": 70
+            },
+            "moves":{
+                "thunderbolt": 90,
+                "flash cannon": 80,
+                "volt switch": 70,
+                "hidden power": 60
+            },
+            "type": ["Electric", "Steel"],
+            "weaknesses": ["Fire", "Fighting", "Ground"],
+            "strengths": ["Electric", "Steel", "Rock","Ice"],
+            "ability": "Magnet Pull",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Farfetch'd": {
+            "stats": {
+                "hp": 52,
+                "attack": 90,
+                "defense": 55,
+                "spAttack": 58,
+                "spDefense": 62,
+                "speed": 60
+            },
+            "moves":{
+                "brave bird": 120,
+                "leaf blade": 90,
+                "knock off": 65,
+                "swords dance": "status"
+            },
+            "type": ["Normal", "Flying"],
+            "weaknesses": ["Electric", "Ice", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug"],
+            "ability": "Defiant",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Dodrio": {
+            "stats": {
+                "hp": 60,
+                "attack": 110,
+                "defense": 70,
+                "spAttack": 60,
+                "spDefense": 60,
+                "speed": 100
+            },
+            "moves":{
+                "brave bird": 120,
+                "return": 102,
+                "jump kick": 100,
+                "quick attack": 40
+            },
+            "type": ["Normal", "Flying"],
+            "weaknesses": ["Electric", "Ice", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug"],
+            "ability": "Early Bird",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Dewgong": {
+            "stats": {
+                "hp": 90,
+                "attack": 70,
+                "defense": 80,
+                "spAttack": 70,
+                "spDefense": 95,
+                "speed": 70
+            },
+            "moves":{
+                "surf": 90,
+                "ice beam": 90,
+                "toxic": "status",
+                "rest": "status"
+            },
+            "type": ["Water", "Ice"],
+            "weaknesses": ["Electric", "Grass", "Fighting", "Rock"],
+            "strengths": ["Fire", "Water", "Ice", "Steel"],
+            "ability": "Thick Fat",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Muk": {
+            "stats": {
+                "hp": 105,
+                "attack": 105,
+                "defense": 75,
+                "spAttack": 65,
+                "spDefense": 100,
+                "speed": 50
+            },
+            "moves":{
+                "gunk shot": 120,
+                "fire blast": 110,
+                "ice punch": 95,
+                "thunder punch": 75
+            },
+            "type": ["Poison"],
+            "weaknesses": ["Ground", "Psychic"],
+            "strengths": ["Grass"],
+            "ability": "Poison Touch",
+            "evs": "252 HP / 252 Atk / 4 SpD"
+        },
+        "Cloyster": {
+            "stats": {
+                "hp": 50,
+                "attack": 95,
+                "defense": 180,
+                "spAttack": 85,
+                "spDefense": 45,
+                "speed": 70
+            },
+            "moves":{
+                "shell smash": "status",
+                "ice beam": 100,
+                "rock blast": 85,
+                "spikes": "status"
+            },
+            "type": ["Water", "Ice"],
+            "weaknesses": ["Electric", "Grass", "Fighting", "Rock"],
+            "strengths": ["Fire", "Water", "Ice", "Steel"],
+            "ability": "Skill Link",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Gengar": {
+            "stats": {
+                "hp": 60,
+                "attack": 65,
+                "defense": 60,
+                "spAttack": 130,
+                "spDefense": 75,
+                "speed": 110
+            },
+            "moves":{
+                "shadow ball": 100,
+                "sludge bomb": 95,
+                "focus blast": 120,
+                "thunderbolt": 110
+            },
+            "type": ["Ghost", "Poison"],
+            "weaknesses": ["Ghost", "Psychic"],
+            "strengths": ["Grass", "Bug", "Poison"],
+            "ability": "Levitate",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Onix":{
+            "stats": {
+                "hp": 35,
+                "attack": 45,
+                "defense": 160,
+                "spAttack": 30,
+                "spDefense": 45,
+                "speed": 70
+            },
+            "moves":{
+                "stealth rock": "status",
+                "earthquake": 100,
+                "stone edge": 100,
+                "toxic": "status"
+            },
+            "type": ["Rock", "Ground"],
+            "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground"],
+            "strengths": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+            "ability": "Sturdy",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Hypno": {
+            "stats": {
+                "hp": 85,
+                "attack": 73,
+                "defense": 70,
+                "spAttack": 73,
+                "spDefense": 115,
+                "speed": 67
+            },
+            "moves":{
+                "psychic": 90,
+                "thunder wave": "status",
+                "toxic": "status",
+                "calm mind": "status"
+            },
+            "type": ["Psychic"],
+            "weaknesses": ["Bug", "Ghost" ],
+            "strengths": ["Fighting", "Poison"],
+            "ability": "Insomnia",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Kingler": {
+            "stats": {
+                "hp": 55,
+                "attack": 130,
+                "defense": 115,
+                "spAttack": 50,
+                "spDefense": 50,
+                "speed": 75
+            },
+            "moves":{
+                "crabhammer": 100,
+                "x-scissor": 80,
+                "superpower": 120,
+                "rock slide": 75
+            },
+            "type": ["Water"],
+            "weaknesses": ["Grass", "Electric"],
+            "strengths": ["Fire", "Rock", "Ground"],
+            "ability": "Hyper Cutter",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Electrode": {
+            "stats": {
+                "hp": 60,
+                "attack": 50,
+                "defense": 70,
+                "spAttack": 80,
+                "spDefense": 80,
+                "speed": 140
+            },
+            "moves":{
+                "thunder": 120,
+                "volt switch": 70,
+                "hidden power": 80,
+                "taunt": "status"
+            },
+            "type": ["Electric"],
+            "weaknesses": ["Ground"],
+            "strengths": ["Water", "Flying"],
+            "ability": "Soundproof",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Exeggutor": {
+            "stats": {
+                "hp": 95,
+                "attack": 95,
+                "defense": 85,
+                "spAttack": 125,
+                "spDefense": 65,
+                "speed": 55
+            },
+            "moves":{
+                "psychic": 90,
+                "giga drain": 75,
+                "leaf storm": 130,
+                "sleep powder": "status"
+            },
+            "type": ["Grass", "Psychic"],
+            "weaknesses": ["Fire", "Ice", "Flying", "Bug", "Ghost" ],
+            "strengths": ["Water", "Ground", "Rock", "Fighting", "Poison", "Psychic"],
+            "ability": "Chlorophyll",
+            "evs": "252 HP / 252 SpA / 4 SpD"
+        },
+        "Marowak": {
+            "stats": {
+                "hp": 60,
+                "attack": 80,
+                "defense": 110,
+                "spAttack": 50,
+                "spDefense": 80,
+                "speed": 45
+            },
+            "moves":{
+                "earthquake": 100,
+                "stone edge": 100,
+                "double edge": 120,
+                "stealth rock": "status"
+            },
+            "type": ["Ground"],
+            "weaknesses": ["Water", "Grass", "Ice"],
+            "strengths": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+            "ability": "Rock Head",
+            "evs": "252 HP / 252 Atk / 4 SpD"
+        },
+        "Hitmonlee": {
+            "stats": {
+                "hp": 50,
+                "attack": 120,
+                "defense": 53,
+                "spAttack": 35,
+                "spDefense": 110,
+                "speed": 87
+            },
+            "moves":{
+                "high jump kick": 100,
+                "stone edge": 90,
+                "poison jab": 80,
+                "earthquake": 100
+            },
+            "type": ["Fighting"],
+            "weaknesses": ["Flying", "Psychic"],
+            "strengths": ["Normal", "Rock", "Steel", "Ice" ],
+            "ability": "Reckless",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Hitmonchan": {
+            "stats": {
+                "hp": 50,
+                "attack": 105,
+                "defense": 79,
+                "spAttack": 35,
+                "spDefense": 110,
+                "speed": 76
+            },
+            "moves":{
+                "mach punch": 80,
+                "ice punch": 95,
+                "fire punch": 95,
+                "thunder punch": 95
+            },
+            "type": ["Fighting"],
+            "weaknesses": ["Flying", "Psychic"],
+            "strengths": ["Normal", "Rock", "Steel", "Ice"],
+            "ability": "Iron Fist",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Lickitung": {
+            "stats": {
+                "hp": 90,
+                "attack": 55,
+                "defense": 75,
+                "spAttack": 60,
+                "spDefense": 75,
+                "speed": 30
+            },
+            "moves":{
+                "return": 102,
+                "power whip": 120,
+                "earthquake": 100,
+                "toxic": "status"
+            },
+            "type": ["Normal"],
+            "weaknesses": ["Fighting"],
+            "strengths": [],
+            "ability": "Oblivious",
+            "evs": "252 HP / 252 Atk / 4 SpD"
+        },
+        "Weezing": {
+            "stats": {
+                "hp": 65,
+                "attack": 90,
+                "defense": 120,
+                "spAttack": 85,
+                "spDefense": 70,
+                "speed": 60
+            },
+            "moves":{
+                "sludge bomb": 90,
+                "fire blast": 110,
+                "thunderbolt": 90,
+                "will o wisp": "status"
+            },
+            "type": ["Poison"],
+            "weaknesses": ["Ground", "Psychic"],
+            "strengths": ["Grass" ],
+            "ability": "Levitate",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Rhydon": {
+            "stats": {
+                "hp": 105,
+                "attack": 130,
+                "defense": 120,
+                "spAttack": 45,
+                "spDefense": 45,
+                "speed": 40
+            },
+            "moves":{
+                "earthquake": 100,
+                "stone edge": 100,
+                "megahorn": 120,
+                "stealth rock": "status"
+            },
+            "type": ["Ground", "Rock"],
+            "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+            "strengths": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+            "ability": "Rock Head",
+            "evs": "252 HP / 252 Atk / 4 SpD"
+        },
+        "Chansey": {
+            "stats": {
+                "hp": 250,
+                "attack": 5,
+                "defense": 5,
+                "spAttack": 35,
+                "spDefense": 105,
+                "speed": 50
+            },
+            "moves":{
+                "soft boiled": "status",
+                "seismic toss": 100,
+                "toxic": "status",
+                "thunder wave": "status"
+            },
+            "type": ["Normal"],
+            "weaknesses": ["Fighting"],
+            "strengths": [],
+            "ability": "Natural Cure",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Tangela": {
+            "stats": {
+                "hp": 65,
+                "attack": 55,
+                "defense": 115,
+                "spAttack": 100,
+                "spDefense": 40,
+                "speed": 60
+            },
+            "moves":{
+                "giga drain": 75,
+                "leaf storm": 130,
+                "knock off": 65,
+                "sleep powder": "status"
+            },
+            "type": ["Grass"],
+            "weaknesses": ["Fire", "Flying", "Ice", "Poison", "Bug"],
+            "strengths": ["Water", "Ground", "Rock", "Electric"],
+            "ability": "Regenerator",
+            "evs": "252 HP / 252 SpA / 4 SpD"
+        },
+        "Kangaskhan": {
+            "stats": {
+                "hp": 105,
+                "attack": 95,
+                "defense": 80,
+                "spAttack": 40,
+                "spDefense": 80,
+                "speed": 90
+            },
+            "moves":{
+                "return": 102,
+                "earthquake": 100,
+                "sucker punch": 80,
+                "crunch": 80
+            },
+            "type": ["Normal"],
+            "weaknesses": ["Fighting"],
+            "strengths": [],
+            "ability": "Scrappy",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Seadra": {
+            "stats": {
+                "hp": 55,
+                "attack": 65,
+                "defense": 95,
+                "spAttack": 95,
+                "spDefense": 45,
+                "speed": 85
+            },
+            "moves":{
+                "hydro pump": 110,
+                "ice beam": 90,
+                "dragon pulse": 85,
+                "agility": "status"
+            },
+            "type": ["Water"],
+            "weaknesses": ["Grass", "Electric"],
+            "strengths": ["Fire", "Rock", "Ground"],
+            "ability": "Poison Point",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Seaking": {
+            "stats": {
+                "hp": 80,
+                "attack": 92,
+                "defense": 65,
+                "spAttack": 65,
+                "spDefense": 80,
+                "speed": 68
+            },
+            "moves":{
+                "waterfall": 80,
+                "megahorn": 120,
+                "drill run": 80,
+                "poison jab": 80
+            },
+            "type": ["Water"],
+            "weaknesses": ["Grass", "Electric"],
+            "strengths": ["Fire", "Rock", "Ground"],
+            "ability": "Lightning Rod",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Starmie": {
+            "stats": {
+                "hp": 60,
+                "attack": 75,
+                "defense": 85,
+                "spAttack": 100,
+                "spDefense": 85,
+                "speed": 115
+            },
+            "moves":{
+                "surf": 110,
+                "ice beam": 110,
+                "thunderbolt": 90,
+                "psychic": 110
+            },
+            "type": ["Water", "Psychic"],
+            "weaknesses": ["Grass", "Electric", "Bug", "Ghost"],
+            "strengths": ["Fire", "Fighting", "Poison", "Steel", "Psychic"],
+            "ability": "Natural Cure",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Mr. Mime": {
+            "stats": {
+                "hp": 40,
+                "attack": 45,
+                "defense": 65,
+                "spAttack": 100,
+                "spDefense": 120,
+                "speed": 90
+            },
+            "moves":{
+                "psychic": 90,
+                "dazzling gleam": 80,
+                "shadow ball": 80,
+                "thunderbolt": 90
+            },
+            "type": ["Psychic"],
+            "weaknesses": ["Ghost", "Steel", "Poison"],
+            "strengths": ["Fighting", "Psychic", "Bug" ],
+            "ability": "Soundproof",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Scyther": {
+            "stats": {
+                "hp": 70,
+                "attack": 110,
+                "defense": 80,
+                "spAttack": 55,
+                "spDefense": 80,
+                "speed": 105
+            },
+            "moves":{
+                "aerial ace": 120,
+                "x-scissor": 80,
+                "brick break": 95,
+                "swords dance": "status"
+            },
+            "type": ["Bug", "Flying"],
+            "weaknesses": ["Fire", "Electric", "Ice", "Flying", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug"],
+            "ability": "Technician",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Jynx": {
+            "stats": {
+                "hp": 65,
+                "attack": 50,
+                "defense": 35,
+                "spAttack": 115,
+                "spDefense": 95,
+                "speed": 95
+            },
+            "moves":{
+                "ice beam": 90,
+                "psychic": 90,
+                "focus blast": 120,
+                "lovely kiss": "status"
+            },
+            "type": ["Ice", "Psychic"],
+            "weaknesses": ["Fire", "Bug", "Rock", "Ghost", "Steel"],
+            "strengths": ["Grass", "Fighting", "Psychic"],
+            "ability": "Dry Skin",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Electabuzz": {
+            "stats": {
+                "hp": 65,
+                "attack": 83,
+                "defense": 57,
+                "spAttack": 95,
+                "spDefense": 85,
+                "speed": 105
+            },
+            "moves":{
+                "thunderbolt": 90,
+                "ice punch": 75,
+                "psychic": 90,
+                "cross chop": 100
+            },
+            "type": ["Electric"],
+            "weaknesses": ["Ground"],
+            "strengths": ["Water", "Flying"],
+            "ability": "Vital Spirit",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Magmar": {
+            "stats": {
+                "hp": 65,
+                "attack": 95,
+                "defense": 57,
+                "spAttack": 100,
+                "spDefense": 85,
+                "speed": 93
+            },
+            "moves":{
+                "fire blast": 110,
+                "thunder punch": 75,
+                "psychic": 90,
+                "focus blast": 120
+            },
+            "type": ["Fire"],
+            "weaknesses": ["Water", "Rock", "Ground"],
+            "strengths": ["Grass", "Bug", "Steel", "Ice"],
+            "ability": "Flame Body",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Pinsir": {
+            "stats": {
+                "hp": 65,
+                "attack": 125,
+                "defense": 100,
+                "spAttack": 55,
+                "spDefense": 70,
+                "speed": 85
+            },
+            "moves":{
+                "x-scissor": 80,
+                "earthquake": 100,
+                "close combat": 120,
+                "toxic": "status"
+            },
+            "type": ["Bug"],
+            "weaknesses": ["Fire", "Flying", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug"],
+            "ability": "Mold Breaker",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Tauros": {
+            "stats": {
+                "hp": 75,
+                "attack": 100,
+                "defense": 95,
+                "spAttack": 40,
+                "spDefense": 70,
+                "speed": 110
+            },
+            "moves":{
+                "return": 102,
+                "earthquake": 100,
+                "zen headbutt": 120,
+                "hyper beam": 150
+            },
+            "type": ["Normal"],
+            "weaknesses": ["Fighting"],
+            "strengths": [],
+            "ability": "Intimidate",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Gyarados": {
+            "stats": {
+                "hp": 95,
+                "attack": 125,
+                "defense": 79,
+                "spAttack": 60,
+                "spDefense": 100,
+                "speed": 81
+            },
+            "moves":{
+                "waterfall": 80,
+                "ice fang": 95,
+                "earthquake": 100,
+                "dragon dance": "status"
+            },
+            "type": ["Water", "Flying"],
+            "weaknesses": ["Electric", "Rock"],
+            "strengths": ["Fire", "Fighting", "Bug", "Steel"],
+            "ability": "Intimidate",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Lapras": {
+            "stats": {
+                "hp": 130,
+                "attack": 85,
+                "defense": 80,
+                "spAttack": 85,
+                "spDefense": 95,
+                "speed": 60
+            },
+            "moves":{
+                "surf": 110,
+                "ice beam": 110,
+                "thunderbolt": 90,
+                "toxic": "status"
+            },
+            "type": ["Water", "Ice"],
+            "weaknesses": ["Electric", "Grass", "Fighting", "Rock"],
+            "strengths": ["Fire", "Water", "Ice", "Steel"],
+            "ability": "Water Absorb",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Ditto": {
+            "stats": {
+                "hp": 48,
+                "attack": 48,
+                "defense": 48,
+                "spAttack": 48,
+                "spDefense": 48,
+                "speed": 48
+            },
+            "moves":{
+                "transform0": "status",
+                "transform1": "status",
+                "transform2": "status",
+                "transform3": "status"
+            },
+            "type": ["Normal"],
+            "weaknesses": [],
+            "strengths": [],
+            "ability": "Imposter",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Vaporeon": {
+            "stats": {
+                "hp": 130,
+                "attack": 65,
+                "defense": 60,
+                "spAttack": 110,
+                "spDefense": 95,
+                "speed": 65
+            },
+            "moves":{
+                "scald": 80,
+                "ice beam": 90,
+                "wish": "status",
+                "protect": "status"
+            },
+            "type": ["Water"],
+            "weaknesses": ["Grass", "Electric"],
+            "strengths": ["Fire", "Rock", "Ground"],
+            "ability": "Water Absorb",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Jolteon": {
+            "stats": {
+                "hp": 65,
+                "attack": 65,
+                "defense": 60,
+                "spAttack": 110,
+                "spDefense": 95,
+                "speed": 130
+            },
+            "moves":{
+                "thunderbolt": 90,
+                "volt switch": 70,
+                "hidden power": 60,
+                "shadow ball": 80
+            },
+            "type": ["Electric"],
+            "weaknesses": ["Ground"],
+            "strengths": ["Water", "Flying"],
+            "ability": "Volt Absorb",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Flareon": {
+            "stats": {
+                "hp": 65,
+                "attack": 130,
+                "defense": 60,
+                "spAttack": 95,
+                "spDefense": 110,
+                "speed": 65
+            },
+            "moves":{
+                "flare blitz": 120,
+                "superpower": 120,
+                "quick attack": 40,
+                "will o wisp": "status"
+            },
+            "type": ["Fire"],
+            "weaknesses": ["Water", "Rock", "Ground"],
+            "strengths": ["Grass", "Bug", "Steel", "Ice"],
+            "ability": "Flash Fire",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Porygon": {
+            "stats": {
+                "hp": 65,
+                "attack": 60,
+                "defense": 70,
+                "spAttack": 85,
+                "spDefense": 75,
+                "speed": 40
+            },
+            "moves":{
+                "tri attack": 80,
+                "ice beam": 90,
+                "thunderbolt": 90,
+                "recover": "status"
+            },
+            "type": ["Normal"],
+            "weaknesses": ["Fighting"],
+            "strengths": [],
+            "ability": "Download",
+            "evs": "252 HP / 252 SpA / 4 SpD"
+        },
+        "Omastar": {
+            "stats": {
+                "hp": 70,
+                "attack": 60,
+                "defense": 125,
+                "spAttack": 115,
+                "spDefense": 70,
+                "speed": 55
+            },
+            "moves":{
+                "surf": 90,
+                "ice beam": 90,
+                "shell smash": "status",
+                "spikes": "status"
+            },
+            "type": ["Rock", "Water"],
+            "weaknesses": ["Grass", "Electric", "Fighting", "Ground"],
+            "strengths": ["Fire", "Rock", "Steel", "Ice"],
+            "ability": "Swift Swim",
+            "evs": "252 HP / 252 SpA / 4 SpD"
+        },
+        "Kabutops": {
+            "stats": {
+                "hp": 60,
+                "attack": 115,
+                "defense": 105,
+                "spAttack": 65,
+                "spDefense": 70,
+                "speed": 80
+            },
+            "moves":{
+                "waterfall": 80,
+                "stone edge": 100,
+                "swords dance": "status",
+                "rapid spin": "status"
+            },
+            "type": ["Rock", "Water"],
+            "weaknesses": ["Grass", "Electric", "Fighting", "Ground"],
+            "strengths": ["Fire", "Rock", "Steel", "Ice"],
+            "ability": "Swift Swim",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Aerodactyl": {
+            "stats": {
+                "hp": 80,
+                "attack": 105,
+                "defense": 65,
+                "spAttack": 60,
+                "spDefense": 75,
+                "speed": 130
+            },
+            "moves":{
+                "stone edge": 100,
+                "aerial ace": 120,
+                "earthquake": 100,
+                "stealth rock": "status"
+            },
+            "type": ["Rock", "Flying"],
+            "weaknesses": ["Water", "Electric", "Ice", "Rock", "Steel"],
+            "strengths": ["Fire", "Bug", "Fighting"],
+            "ability": "Pressure",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Snorlax": {
+            "stats": {
+                "hp": 160,
+                "attack": 110,
+                "defense": 65,
+                "spAttack": 65,
+                "spDefense": 110,
+                "speed": 30
+            },
+            "moves":{
+                "return": 102,
+                "earthquake": 100,
+                "crunch": 120,
+                "hyper beam": 150
+            },
+            "type": ["Normal"],
+            "weaknesses": ["Fighting"],
+            "strengths": ["Ghost"],
+            "ability": "Thick Fat",
+            "evs": "252 HP / 252 Atk / 4 SpD"
+        },
+        "Articuno": {
+            "stats": {
+                "hp": 90,
+                "attack": 85,
+                "defense": 100,
+                "spAttack": 95,
+                "spDefense": 125,
+                "speed": 85
+            },
+            "moves":{
+                "ice beam": 110,
+                "roost": "status",
+                "hurricane": 110,
+                "Blizzard": 140
+            },
+            "type": ["Ice", "Flying"],
+            "weaknesses": ["Fire", "Electric", "Steel", "Rock"],
+            "strengths": ["Grass", "Fighting", "Bug"],
+            "ability": "Pressure",
+            "evs": "252 HP / 252 Def / 4 SpD"
+        },
+        "Zapdos": {
+            "stats": {
+                "hp": 90,
+                "attack": 90,
+                "defense": 85,
+                "spAttack": 125,
+                "spDefense": 90,
+                "speed": 100
+            },
+            "moves":{
+                "hurricane": 110,
+                "heat wave": 95,
+                "roost": "status",
+                "thunder": 120
+            },
+            "type": ["Electric", "Flying"],
+            "weaknesses": ["Ice", "Rock"],
+            "strengths": ["Water", "Flying"],
+            "ability": "Pressure",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Moltres": {
+            "stats": {
+                "hp": 90,
+                "attack": 100,
+                "defense": 90,
+                "spAttack": 125,
+                "spDefense": 85,
+                "speed": 90
+            },
+            "moves":{
+                "fire blast": 110,
+                "hurricane": 110,
+                "roost": "status",
+                "solar beam": 120
+            },
+            "type": ["Fire", "Flying"],
+            "weaknesses": ["Water", "Electric", "Rock"],
+            "strengths": ["Grass", "Bug", "Fighting", "Steel"],
+            "ability": "Pressure",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Dragonite": {
+            "stats": {
+                "hp": 91,
+                "attack": 134,
+                "defense": 95,
+                "spAttack": 100,
+                "spDefense": 100,
+                "speed": 80
+            },
+            "moves":{
+                "outrage": 120,
+                "earthquake": 100,
+                "fire punch": 95,
+                "draco meteor": 130
+            },
+            "type": ["Dragon", "Flying"],
+            "weaknesses": ["Ice", "Rock", "Dragon"],
+            "strengths": ["Fire", "Water", "Grass", "Fighting", "Bug"],
+            "ability": "Multiscale",
+            "evs": "252 Atk / 4 Def / 252 Spe"
+        },
+        "Mewtwo": {
+            "stats": {
+                "hp": 106,
+                "attack": 110,
+                "defense": 90,
+                "spAttack": 154,
+                "spDefense": 90,
+                "speed": 130
+            },
+            "moves":{
+                "psychic": 120,
+                "aura sphere": 110,
+                "ice beam": 90,
+                "thunderbolt": 90
+            },
+            "type": ["Psychic"],
+            "weaknesses": ["Bug", "Ghost"],
+            "strengths": ["Fighting", "Poison"],
+            "ability": "Pressure",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        },
+        "Mew": {
+            "stats": {
+                "hp": 100,
+                "attack": 100,
+                "defense": 100,
+                "spAttack": 100,
+                "spDefense": 100,
+                "speed": 100
+            },
+            "moves":{
+                "psychic": 110,
+                "aura sphere": 120,
+                "ice beam": 90,
+                "thunderbolt": 90
+            },
+            "type": ["Psychic"],
+            "weaknesses": ["Bug", "Ghost"],
+            "strengths": ["Fighting", "Poison"],
+            "ability": "Synchronize",
+            "evs": "252 SpA / 4 SpD / 252 Spe"
+        }
+    }
+]
