@@ -1,0 +1,153 @@
+{
+    "pokemonByType": {
+        "Grass": [
+            "Venasaur",
+            "Vileplume",
+            "Parasect",
+            "Victreebel",
+            "Exeggutor",
+            "Tangela"
+        ],
+        "Poison": [
+            "Venasaur",
+            "Beedrill",
+            "Arbok",
+            "Nidoqueen",
+            "Nidoking",
+            "Vileplume",
+            "Venomoth",
+            "Victreebel",
+            "Tentacruel",
+            "Muk",
+            "Gengar",
+            "Weezing"
+        ],
+        "Fire": [
+            "Charizard",
+            "Ninetales",
+            "Arcanine",
+            "Rapidash",
+            "Magmar",
+            "Flareon",
+            "Moltres"
+        ],
+        "Flying": [
+            "Charizard",
+            "Butterfree",
+            "Pidgeot",
+            "Fearow",
+            "Farfetch'd",
+            "Dodrio",
+            "Scyther",
+            "Gyarados",
+            "Aerodactyl",
+            "Articuno",
+            "Zapdos",
+            "Moltres",
+            "Dragonite"
+        ],
+        "Water": [
+            "Bastoise",
+            "Golduck",
+            "Poliwrath",
+            "Tentacruel",
+            "Slowbro",
+            "Dewgong",
+            "Cloyster",
+            "Kingler",
+            "Seadra",
+            "Seaking",
+            "Starmie",
+            "Gyarados",
+            "Lapras",
+            "Vaporeon",
+            "Omastar",
+            "Kabutops"
+        ],
+        "Bug": [
+            "Butterfree",
+            "Beedrill",
+            "Parasect",
+            "Venomoth",
+            "Scyther",
+            "Pinsir"
+        ],
+        "Normal": [
+            "Pidgeot",
+            "Raticate",
+            "Fearow",
+            "Clefable",
+            "Wigglytuff",
+            "Persian",
+            "Farfetch'd",
+            "Dodrio",
+            "Lickitung",
+            "Chansey",
+            "Kangaskhan",
+            "Tauros",
+            "Ditto",
+            "Porygon",
+            "Snorlax"
+        ],
+        "Electric": [
+            "Raichu",
+            "Magneton",
+            "Electrode",
+            "Electabuzz",
+            "Jolteon",
+            "Zapdos"
+        ],
+        "Ground": [
+            "Sandslash",
+            "Nidoqueen",
+            "Nidoking",
+            "Dugtrio",
+            "Golem",
+            "Onix",
+            "Marowak",
+            "Rhydon"
+        ],
+        "Fighting": [
+            "Primeape",
+            "Poliwrath",
+            "Machamp",
+            "Hitmonlee",
+            "Hitmonchan"
+        ],
+        "Psychic": [
+            "Alakazam",
+            "Slowbro",
+            "Hypno",
+            "Exeggutor",
+            "Starmie",
+            "Mr. Mime",
+            "Jynx",
+            "Mewtwo",
+            "Mew"
+        ],
+        "Rock": [
+            "Golem",
+            "Onix",
+            "Rhydon",
+            "Omastar",
+            "Kabutops",
+            "Aerodactyl"
+        ],
+        "Steel": [
+            "Magneton"
+        ],
+        "Ice": [
+            "Dewgong",
+            "Cloyster",
+            "Jynx",
+            "Lapras",
+            "Articuno"
+        ],
+        "Ghost": [
+            "Gengar"
+        ],
+        "Dragon": [
+            "Dragonite"
+        ]
+    }
+}
