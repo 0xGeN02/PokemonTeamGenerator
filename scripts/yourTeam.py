@@ -1,3 +1,4 @@
+import subprocess
 # 1.Obtenemos todos los pokemons del json pokemonByType
 # 2.Obtenemos las fortalezas y debilidades del equipo rival
 # 3.Recalculamos el peso de los pokemon en relacion a las fortalezas y deblilodades del equipo rival 
@@ -62,7 +63,7 @@ def get_puntosCombate(rivalData, pokePeso, pokeByType):
 
 def get_best_pokemon(puntosCombate):
     # Ordenamos los pokemon por puntos de combate
-    sorted_pokemon = sorted(puntosCombate.items(), key=lambda x: x[1]["puntosCombate"], reverse=True)
+    sorted_pokemon = sorted(puntosCombate.items(), key=lambda x: x[1]["puntosCombate"], reverse=True) # Utiliza TimSort O(n log n)
     # Devolvemos los 6 primeros pokemons de la lista
     return sorted_pokemon[:6]
 
@@ -79,8 +80,17 @@ def get_best_pokemon_info(best_team, pokeData):
         best_team_info.append(pokemon_info)
     return best_team_info
 
-# 7.Reestructuramos los datos para que sean mas faciles de leer por terminal
-def print_pokemon_data(pokemon_info):
+# 7.Obtenemos la imagen de los pokemons elegidos
+
+def print_pokemon_image(pokemon_name, poke_colorscripts_dir):
+    poke_name = pokemon_name.lower()
+    command = f'cd {poke_colorscripts_dir} && pokemon-colorscripts -n {poke_name}'
+    subprocess.run(command, shell=True, check=True)
+
+
+# 8.Reestructuramos los datos para que sean mas faciles de leer por terminal
+def print_pokemon_data(pokemon_info, poke_colorscripts_dir):
+    print_pokemon_image(pokemon_info['name'], poke_colorscripts_dir)
     print(f"{pokemon_info['name']}:")
     print("  Stats:")
     for stat, value in pokemon_info['stats'].items():
@@ -93,3 +103,5 @@ def print_pokemon_data(pokemon_info):
     print(f"  Strengths: {', '.join(pokemon_info['strengths'])}")
     print(f"  Ability: {pokemon_info['ability']}")
     print(f"  EVs: {pokemon_info['evs']}")
+    print("")
+    print("")

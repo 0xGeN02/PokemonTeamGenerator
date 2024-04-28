@@ -1,0 +1,3 @@
+[submodule "git/pokemon-colorscripts"]
+	path = git/pokemon-colorscripts
+	url = https://gitlab.com/phoneybadger/pokemon-colorscripts.git

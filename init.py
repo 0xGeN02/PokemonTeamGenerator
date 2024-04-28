@@ -3,9 +3,10 @@ base_dir = os.path.dirname(__file__)
 import sys
 sys.path.append('..')
 from scripts.rivalTeam import get_rival_team, get_rival_teamInfo, load_data
-from lib.quicksortPokeAttributes import quickSort
+from lib.quicksortRivalAttributes import quickSort
 from colorama import Fore
 from scripts.yourTeam import get_puntosCombate, get_best_pokemon, get_best_pokemon_info, print_pokemon_data
+from scripts.compareSorts import compareSorts
 
 #start the program
 print(Fore.YELLOW + str(""))
@@ -66,6 +67,8 @@ for pokemon, value in puntosCombate.items():
     print(f"{pokemon}: {value['puntosCombate']}")
 print("")
 
+compareSorts(puntosCombate)
+
 best_team = get_best_pokemon(puntosCombate)
 print("El equipo", Fore.LIGHTGREEN_EX + str("recomendado")+ Fore.RESET, "es: ")
 for pokemon in best_team:
@@ -73,10 +76,11 @@ for pokemon in best_team:
 print("")
 
 best_team_info = get_best_pokemon_info(best_team, pokemon_data)
-print("La informacion de los pokemons recomendados es: ")
+print(Fore.CYAN+"La informacion de los pokemons recomendados es: "+Fore.RESET)
 
 #Print poke data
+poke_colorScripts_dir = os.path.join(base_dir, 'git/pokemon-colorscripts')
 for pokemon in best_team_info:
-    print_pokemon_data(pokemon)
+    print_pokemon_data(pokemon, poke_colorScripts_dir)
 
-print("Gracias por usar Pokemon Team Generator")
+print(Fore.YELLOW+"Gracias por usar Pokemon Team Generator"+Fore.RESET)
