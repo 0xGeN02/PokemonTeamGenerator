@@ -1182,14 +1182,14 @@
                 "attack": 45,
                 "defense": 65,
                 "spAttack": 100,
-                "spDefense": 120,
+                "spDefense": 100,
                 "speed": 90
             },
             "moves":{
                 "psychic": 90,
                 "dazzling gleam": 80,
                 "shadow ball": 80,
-                "thunderbolt": 90
+                "thunderbolt": 70
             },
             "type": ["Psychic"],
             "weaknesses": ["Ghost", "Steel", "Poison"],

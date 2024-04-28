@@ -10,15 +10,19 @@ def load_data(base_dir):
     with open(os.path.join(base_dir, 'data/pokemonTypeChart.json'), 'r') as file:
         pokemon_types = json.load(file)
     with open(os.path.join(base_dir, 'data/pokemonByType.json'), 'r') as file:
-        pokemon_by_type = json.load(file)
-    return pokemon_peso, pokemon_data, pokemon_types, pokemon_by_type
+        pokemon_byType = json.load(file)
+    return pokemon_peso, pokemon_data, pokemon_types, pokemon_byType
 
 #Pedimos al user que introduzca los pokemon del rival o el equipo por defecto
 def get_rival_team():
     rivalTeam = []
-    default_rivalTeam = ['Charizard', 'Raichu', 'Gengar', 'Machamp', 'Gyarados', 'Alakazam']
+    default_rivalTeam = ['Charizard', 'Venasaur', 'Raticate', 'Machamp', 'Dugtrio', 'Alakazam']
     print("Pulse 0 si desea usar el equipo por defecto o 1 si desea introducir el equipo rival")
-    option = int(input())
+    try:
+        option = int(input())
+    except:
+        print("Opcion no valida, introduzca 0 o 1")
+        return get_rival_team()
     if option == 0:
         rivalTeam = default_rivalTeam
     elif option == 1:
@@ -28,7 +32,7 @@ def get_rival_team():
             rivalTeam.append(pokemon)
     return rivalTeam
 
-def get_rival_teamInfo(rivalTeam, pokemon_peso, pokemon_data, pokemon_types, pokemon_by_type):
+def get_rival_teamInfo(rivalTeam, pokemon_peso, pokemon_data, pokemon_types):
     totalPeso = 0
     totalTypes = {}
     totalStrengths = {}
@@ -94,11 +98,9 @@ def get_rival_teamInfo(rivalTeam, pokemon_peso, pokemon_data, pokemon_types, pok
         }
 
     rival_teamInfo = {
-        "Total Types": totalTypes,
-        "Total Strengths": totalStrengths,
-        "Total Weaknesses": totalWeaknesses,
-        "Total Peso": totalPeso
+        "totalTypes": totalTypes,
+        "totalStrengths": totalStrengths,
+        "totalWeaknesses": totalWeaknesses,
+        "totalPeso": totalPeso
     }
-    print(rival_teamInfo)
-
-    return rival_pokemonInfo, rival_teamInfo
+    return rival_teamInfo, rival_pokemonInfo

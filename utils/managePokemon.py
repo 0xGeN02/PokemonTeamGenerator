@@ -1,7 +1,7 @@
-from competitiveValueAlgorithm import calculate_competitiveValue
+from competitiveValue import calculate_competitiveValue
 import json
 
-with open('C:/Users/G513/University/2/ComplejidadComputacuional/PokemonTeamGenerator/data/pokemonStats.json', 'r') as file:
+with open('C:/Users/G513/University/2/ComplejidadComputacuional/PokemonTeamGenerator/data/pokemonData.json', 'r') as file:
     pokemon_stats = json.load(file)
 
 #Funcion para calcular el peso de los pokemon en el json

@@ -3,20 +3,80 @@ base_dir = os.path.dirname(__file__)
 import sys
 sys.path.append('..')
 from scripts.rivalTeam import get_rival_team, get_rival_teamInfo, load_data
+from lib.quicksortPokeAttributes import quickSort
+from colorama import Fore
+from scripts.yourTeam import get_puntosCombate, get_best_pokemon, get_best_pokemon_info, print_pokemon_data
 
 #start the program
-print("POKEMON TEAM GENERATOR")
-print("|||||||||||\         ||||||||||||         ||||     ////      |||||||||||       ||||||||           |||||||||")
-print("||||    ||||\      |||||||||||||||        ||||    ////       ||||              ||||  ||||        ||||  ||||")
-print("||||     |||||     |||         |||        ||||   ////        ||||              ||||   ||||      ||||   ||||")
-print("||||    ||||/      |||         |||        ||||  ////         ||||              ||||    |||||  |||||    ||||")
-print("|||||||||||/       |||         |||        |||||||||          |||||||||||       ||||      ||||||||      ||||")
-print("||||               |||         |||        ||||  \\\\         ||||              ||||        ||||        ||||")
-print("||||               |||         |||        ||||   \\\\        ||||              ||||                    ||||")
-print("||||               |||||||||||||||        ||||    \\\\       ||||              ||||                    ||||")
-print("||||                |||||||||||||         ||||     \\\\      |||||||||||       ||||                    ||||")
+print(Fore.YELLOW + str(""))
+print("||||||||||||         ||||||||||||         ||||     ||||      |||||||||||       ||||||||           ||||||||       |||||||||||||       ||||||||       ||||")
+print("||||    |||||      |||||||||||||||        ||||    ||||       ||||              |||| ||||        ||||  ||||      |||||||||||||||      |||| ||||      ||||")
+print("||||     |||||     |||         |||        ||||   ||||        ||||              ||||  ||||      ||||   ||||      |||         |||      ||||  ||||     ||||")
+print("||||    |||||      |||         |||        ||||  ||||         ||||              ||||   |||||  |||||    ||||      |||         |||      ||||   ||||    ||||")
+print("||||||||||||       |||         |||        |||||||||          |||||||||||       ||||     ||||||||      ||||      |||         |||      ||||    ||||   ||||")
+print("||||               |||         |||        ||||  ||||         ||||              ||||       ||||        ||||      |||         |||      ||||     ||||  ||||")
+print("||||               |||         |||        ||||   ||||        ||||              ||||                   ||||      |||         |||      ||||      |||| ||||")
+print("||||               |||||||||||||||        ||||    ||||       ||||              ||||                   ||||      |||||||||||||||      ||||       ||||||||")
+print("||||                |||||||||||||         ||||     ||||      |||||||||||       ||||                   ||||       |||||||||||||       ||||         ||||||")
+print(""+Fore.RESET)
+print("Bienvenido a Pokemon Team Generator")
+print("")
 
-(pokemon_peso, pokemon_stats, pokemon_types, pokemon_by_type) = load_data(base_dir)
+#Cargamos los datos de los json
+(pokemon_peso, pokemon_data, pokemon_types, pokemon_byType) = load_data(base_dir)
+
+#Pedimos al user que introduzca los pokemon del rival o el equipo por defecto
 rivalTeam = get_rival_team()
-rivalTeamInfo = get_rival_teamInfo(rivalTeam, pokemon_peso, pokemon_stats, pokemon_types, pokemon_by_type)
 
+#Obtenemos la informacion del equipo rival
+(rivalTeamInfo, rivalPokemonInfo) = get_rival_teamInfo(rivalTeam, pokemon_peso, pokemon_data, pokemon_types)
+
+#Reordenamos los valores de los diccionarios
+reorderTypes = quickSort(rivalTeamInfo['totalTypes'])
+reorderFrotalezas = quickSort(rivalTeamInfo['totalStrengths'])
+reorderDebilidades = quickSort(rivalTeamInfo['totalWeaknesses'])
+reorderedData = {'rivalTypes':reorderTypes, 'rivalStrengths': reorderFrotalezas, 'rivalWeaknesses': reorderDebilidades}
+
+print("El equipo rival tiene un", Fore.MAGENTA + str("peso")+ Fore.RESET, "total de " + Fore.MAGENTA + str(rivalTeamInfo["totalPeso"])+ Fore.RESET)
+print("")
+
+print("Los", Fore.YELLOW + str("Pokemon")+ Fore.RESET, "del equipo rival son: ")
+for pokemon in rivalTeam:
+    print(pokemon)
+print("")
+
+print("Los tipos de", Fore.YELLOW + str("Pokemon")+ Fore.RESET, "que tiene el equipo rival son: ")
+for type,count in reorderTypes.items():
+    print(f"{type}: {count}")
+print("")
+
+print("Las", Fore.GREEN + str("fortalezas")+ Fore.RESET, "del equipo rival son: ")
+for strengths, count in reorderFrotalezas.items():
+    print(f"{strengths}: {count}")
+print("")
+
+print("Las", Fore.RED + str("debilidades")+ Fore.RESET, "del equipo rival son: ")
+for weaknesses, count in reorderDebilidades.items():
+    print(f"{weaknesses}: {count}")
+print("")
+
+(puntosCombate) = get_puntosCombate(reorderedData, pokemon_peso, pokemon_byType)
+print("Los", Fore.CYAN + str("puntos de combate")+ Fore.RESET, "de los pokemons son: ")
+for pokemon, value in puntosCombate.items():
+    print(f"{pokemon}: {value['puntosCombate']}")
+print("")
+
+best_team = get_best_pokemon(puntosCombate)
+print("El equipo", Fore.LIGHTGREEN_EX + str("recomendado")+ Fore.RESET, "es: ")
+for pokemon in best_team:
+    print(pokemon[0])
+print("")
+
+best_team_info = get_best_pokemon_info(best_team, pokemon_data)
+print("La informacion de los pokemons recomendados es: ")
+
+#Print poke data
+for pokemon in best_team_info:
+    print_pokemon_data(pokemon)
+
+print("Gracias por usar Pokemon Team Generator")

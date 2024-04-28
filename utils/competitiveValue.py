@@ -14,7 +14,7 @@ def calculate_competitiveValue(pokemon):
     pokemonStats /= 6
     
     # Calculate weight based on moves
-    for move, value in pokemon["moves"].items():
+    for _, value in pokemon["moves"].items():
         if value == "status":
             moveStats += 80
         else:
@@ -25,5 +25,5 @@ def calculate_competitiveValue(pokemon):
     # Calculate weight based on weaknesses and strengths
     typeAdvantage += len(pokemon["strengths"]) - len(pokemon["weaknesses"])
     
-    competitiveValue = round(100-pokemonStats + moveStats + typeAdvantage*10,2)
+    competitiveValue = round(-100+ pokemonStats + moveStats + typeAdvantage*10,2)
     return competitiveValue

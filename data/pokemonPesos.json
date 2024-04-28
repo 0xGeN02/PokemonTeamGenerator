@@ -2,311 +2,311 @@
     "pokemonPesos": [
         [
             "Venasaur",
-            106.25
+            81.25
         ],
         [
             "Charizard",
-            121.0
+            99.0
         ],
         [
             "Bastoise",
-            106.67 
+            83.33
         ],
         [
             "Butterfree",
-            100.42
+            32.08
         ],
         [
             "Beedrill",
-            101.67
+            33.33
         ],
         [
             "Pidgeot",
-            113.17
+            72.83
         ],
         [
             "Raticate",
-            108.67
+            46.33
         ],
         [
             "Fearow",
-            109.33
+            56.67
         ],
         [
             "Arbok",
-            102.0
+            48.0
         ],
         [
             "Raichu",
-            100.0
+            60.0
         ],
         [
             "Sandslash",
-            135.0
+            85.0
         ],
         [
             "Nidoqueen",
-            105.0
+            70.0
         ],
         [
             "Nidoking",
-            113.33
+            81.67
         ],
         [
             "Clefable",
-            97.0
+            58.0
         ],
         [
             "Ninetales",
-            118.33
+            86.67
         ],
         [
             "Wigglytuff",
-            110.0
+            55.0
         ],
         [
             "Vileplume",
-            113.33
+            76.67
         ],
         [
             "Parasect",
-            102.5
+            37.5
         ],
         [
             "Venomoth",
-            100.0
+            50.0
         ],
         [
             "Dugtrio",
-            142.5
+            77.5
         ],
         [
             "Persian",
-            102.17
+            48.83
         ],
         [
             "Golduck",
-            124.17
+            90.83
         ],
         [
             "Primeape",
-            135.42
+            87.08
         ],
         [
             "Arcanine",
-            115.0
-        ],
-        [
-            "Poliwrath",
-            88.75
-        ],
-        [
-            "Alakazam",
-            120.83
-        ],
-        [
-            "Machamp",
-            124.58
-        ],
-        [
-            "Victreebel",
-            105.0
-        ],
-        [
-            "Tentacruel",
-            106.67
-        ],
-        [
-            "Golem",
-            107.5
-        ],
-        [
-            "Rapidash",
-            129.17
-        ],
-        [
-            "Slowbro",
-            125.83
-        ],
-        [
-            "Magneton",
-            107.5
-        ],
-        [
-            "Farfetch'd",
-            125.92
-        ],
-        [
-            "Dodrio",
-            113.83
-        ],
-        [
-            "Dewgong",
-            105.83
-        ],
-        [
-            "Muk",
-            106.67
-        ],
-        [
-            "Cloyster",
-            98.75
-        ],
-        [
-            "Gengar",
-            132.92
-        ],
-        [
-            "Onix",
-            125.83
-        ],
-        [
-            "Hypno",
-            102.0
-        ],
-        [
-            "Kingler",
-            124.58
-        ],
-        [
-            "Electrode",
-            117.5
-        ],
-        [
-            "Exeggutor",
-            117.08
-        ],
-        [
-            "Marowak",
-            149.17
-        ],
-        [
-            "Hitmonlee",
-            136.67
-        ],
-        [
-            "Hitmonchan",
-            135.42
-        ],
-        [
-            "Lickitung",
-            126.33
-        ],
-        [
-            "Weezing",
-            100.83
-        ],
-        [
-            "Rhydon",
-            109.17
-        ],
-        [
-            "Chansey",
             100.0
         ],
         [
-            "Tangela",
-            105.0
+            "Poliwrath",
+            58.75
         ],
         [
-            "Kangaskhan",
-            98.83
+            "Alakazam",
+            84.17
         ],
         [
-            "Seadra",
-            127.92
+            "Machamp",
+            92.92
         ],
         [
-            "Seaking",
-            125.0
+            "Victreebel",
+            65.0
         ],
         [
-            "Starmie",
-            128.33
+            "Tentacruel",
+            78.33
         ],
         [
-            "Mr. Mime",
-            108.33
+            "Golem",
+            72.5
         ],
         [
-            "Scyther",
+            "Rapidash",
+            95.83
+        ],
+        [
+            "Slowbro",
+            89.17
+        ],
+        [
+            "Magneton",
+            62.5
+        ],
+        [
+            "Farfetch'd",
+            51.58
+        ],
+        [
+            "Dodrio",
+            67.17
+        ],
+        [
+            "Dewgong",
+            64.17
+        ],
+        [
+            "Muk",
+            73.33
+        ],
+        [
+            "Cloyster",
+            73.75
+        ],
+        [
+            "Gengar",
+            99.58
+        ],
+        [
+            "Onix",
+            54.17
+        ],
+        [
+            "Hypno",
+            63.0
+        ],
+        [
+            "Kingler",
+            82.92
+        ],
+        [
+            "Electrode",
+            77.5
+        ],
+        [
+            "Exeggutor",
             90.42
         ],
         [
+            "Marowak",
+            90.83
+        ],
+        [
+            "Hitmonlee",
+            88.33
+        ],
+        [
+            "Hitmonchan",
+            87.08
+        ],
+        [
+            "Lickitung",
+            54.67
+        ],
+        [
+            "Weezing",
+            64.17
+        ],
+        [
+            "Rhydon",
+            70.83
+        ],
+        [
+            "Chansey",
+            50.0
+        ],
+        [
+            "Tangela",
+            50.0
+        ],
+        [
+            "Kangaskhan",
+            62.17
+        ],
+        [
+            "Seadra",
+            74.58
+        ],
+        [
+            "Seaking",
+            75.0
+        ],
+        [
+            "Starmie",
+            101.67
+        ],
+        [
+            "Mr. Mime",
+            53.33
+        ],
+        [
+            "Scyther",
+            57.08
+        ],
+        [
             "Jynx",
-            99.17
+            50.83
         ],
         [
             "Electabuzz",
-            117.08
+            80.42
         ],
         [
             "Magmar",
-            126.25
+            91.25
         ],
         [
             "Pinsir",
-            111.67
+            78.33
         ],
         [
             "Tauros",
-            126.33
+            89.67
         ],
         [
             "Gyarados",
-            118.75
+            98.75
         ],
         [
             "Lapras",
-            108.33
+            86.67
         ],
         [
             "Ditto",
-            132.0
+            28.0
         ],
         [
             "Vaporeon",
-            105.0
+            80.0
         ],
         [
             "Jolteon",
-            97.5
+            72.5
         ],
         [
             "Flareon",
-            112.5
+            87.5
         ],
         [
             "Porygon",
-            109.17
+            40.83
         ],
         [
             "Omastar",
-            102.5
+            67.5
         ],
         [
             "Kabutops",
-            102.5
+            67.5
         ],
         [
             "Aerodactyl",
-            94.17
+            65.83
         ],
         [
             "Snorlax",
-            128.0
+            108.0
         ],
         [
             "Articuno",
-            103.33
+            96.67
         ],
         [
             "Zapdos",
-            104.58
+            97.92
         ],
         [
             "Moltres",
-            118.33
+            111.67
         ],
         [
             "Dragonite",
@@ -314,7 +314,7 @@
         ],
         [
             "Mewtwo",
-            89.17
+            115.83
         ],
         [
             "Mew",
