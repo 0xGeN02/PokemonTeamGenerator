@@ -1,4 +1,6 @@
 import subprocess
+from lib.sortAlgorithms.quicksort import quicksort
+from lib.sortAlgorithms.bubblesort import bubblesort
 # 1.Obtenemos todos los pokemons del json pokemonByType
 # 2.Obtenemos las fortalezas y debilidades del equipo rival
 # 3.Recalculamos el peso de los pokemon en relacion a las fortalezas y deblilodades del equipo rival 
@@ -61,9 +63,17 @@ def get_puntosCombate(rivalData, pokePeso, pokeByType):
 # 4.Ordenamos los pokemon por puntos de combate
 # 5.Devolvemos los 6 primeros pokemons de la lista
 
-def get_best_pokemon(puntosCombate):
+def get_best_pokemon(puntosCombate, arg):
+    if(arg == 1):
     # Ordenamos los pokemon por puntos de combate
-    sorted_pokemon = sorted(puntosCombate.items(), key=lambda x: x[1]["puntosCombate"], reverse=True) # Utiliza TimSort O(n log n)
+        sorted_pokemon = sorted(puntosCombate.items(), key=lambda x: x[1]["puntosCombate"], reverse=True) # Utiliza TimSort O(n log n)
+    elif(arg == 2):
+        sorted_pokemon = quicksort(list(puntosCombate.items()))[::-1] # Utiliza QuickSort O(n log n)
+    elif(arg == 3):
+        sorted_pokemon = bubblesort(list(puntosCombate.items()))[::-1]
+    else:
+        print("No has seleccionado un algoritmo de ordenacion valido")
+        return None
     # Devolvemos los 6 primeros pokemons de la lista
     return sorted_pokemon[:6]
 

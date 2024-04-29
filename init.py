@@ -67,13 +67,20 @@ for pokemon, value in puntosCombate.items():
     print(f"{pokemon}: {value['puntosCombate']}")
 print("")
 
-compareSorts(puntosCombate)
+print("Comparando los algoritmos de ordenacion: ")
+print("Selecciona el algoritmo de ordenacion que deseas utilizar: ")
+print("1. Timsort Built-in Python")
+print("2. Quicksort Algorithm")
+print("3. Bubblesort Algorithm")
+arg = int(input("Introduce el numero del algoritmo de ordenacion: "))
 
-best_team = get_best_pokemon(puntosCombate)
+best_team = get_best_pokemon(puntosCombate, arg)
 print("El equipo", Fore.LIGHTGREEN_EX + str("recomendado")+ Fore.RESET, "es: ")
 for pokemon in best_team:
     print(pokemon[0])
 print("")
+
+compareSorts(puntosCombate)
 
 best_team_info = get_best_pokemon_info(best_team, pokemon_data)
 print(Fore.CYAN+"La informacion de los pokemons recomendados es: "+Fore.RESET)
